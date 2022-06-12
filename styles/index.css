@@ -1,0 +1,45 @@
+#page {
+    width: 80%;
+    margin: auto;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#welcome {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#welcome>img {
+    height: 200px;
+}
+
+#welcome>h1 {
+    color: yellow;
+}
+
+#searchDiv {
+    width: 80%;
+    margin: auto;
+}
+
+#search {
+    height: 40px;
+    width: 45%;
+    margin: auto;
+    display: block;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline-color: violet;
+}
+
+#search::placeholder {
+    margin-right: 10px;
+}

@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #2d2013;
+}
+
+#navbar {
+    width: 100%;
+    border: 1px solid black;
+    background-color: #23180d;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 50%;
+    margin-left: 20px;
+}
+
+#logo>img{
+    height: 100%;
+}
+
+#options {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#options>h3{
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: crimson;
+}

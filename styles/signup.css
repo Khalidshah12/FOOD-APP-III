@@ -1,0 +1,65 @@
+#container {
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    color: gray;
+}
+
+input {
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.inputname {
+    margin-left: 35px;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: rgb(192, 192, 192);
+}
+
+#signupbtn {
+    width: 40%;
+    display: block;
+    margin: auto;
+    height: 40px;
+    border: 0px;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(24, 117, 170);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+#signinbtn:hover {
+    background-color: rgb(8, 72, 109);
+}
+
+#lastpara {
+    text-align: center;
+}
+
+#lastpara {
+    color: gray;
+}
